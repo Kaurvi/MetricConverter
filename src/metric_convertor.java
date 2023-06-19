@@ -34,6 +34,7 @@ public class metric_convertor
             {
                 trash = in.nextLine();
                 System.out.println("You must enter a valid value not: " + trash + "\n");
+                done=true;
             }
         }while (!done);
         }
